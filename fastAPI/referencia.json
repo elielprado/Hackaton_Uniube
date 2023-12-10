@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "message": "Requisição realizada com sucesso!",
+    "data": [
+        {
+            "company_name": "Empresa1",
+            "cliente" : {
+                "nome":"Cliente1",
+                "endereco": "Endereco1",
+                "email": "cliente1@email.com"
+            },
+            "capacidade" : 100,
+            "alarms": {
+                "off" : false
+            }
+        },
+        {
+            "company_name": "Empresa2",
+            "cliente" : {
+                "nome":"Cliente2",
+                "endereco": "Endereco2",
+                "email": "cliente2@email.com"
+            },
+            "capacidade" : 100,
+            "alarms": {
+                "off" : false
+            }
+        }
+    ],
+        "statusCode": 200
+}
+
